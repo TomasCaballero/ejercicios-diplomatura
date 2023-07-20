@@ -1,0 +1,136 @@
+*{
+    color: black;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.331);
+}
+.bodyPalette{
+    width: 100%;
+    height: 100vh;
+}
+.layoutPalette{
+    width: 100%;
+    height: 100vh;
+    background-color: #EBEBF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layout__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.main__noti{
+    display: inline-block;
+    background-color: #0c1226;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+}
+.noti__text{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.noti__text span{
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Title */
+.main__title{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.868);
+}
+
+/* Palettes */
+.main__palettes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.palette__container{
+    width: 6rem;
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: all 700ms ease-in-out;
+
+}
+.palette__container:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px -5px rgba(0, 0, 0, 0.459);
+    cursor: pointer;
+}
+.palette__container:hover .palette__name{
+    font-weight: 600;
+}
+.palette{
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.palette__color1{
+    background-color: #EEEDF0;
+}
+.palette__color2{
+    background-color: #A1B5C1;
+}
+.palette__color3{
+    background-color: #F9ACA7;
+}
+.palette__color4{
+    background-color: #6874AD;
+}
+.palette__color5{
+    background-color: #CF365F;
+}
+
+
+.palette__name{
+    font-size: 10px;
+    transition: all 700ms ease-in-out;
+}
+
+/* Boton */
+.main__btn{
+    border-radius: 5px;
+    padding: 10px 60px 10px 60px;
+    background-color: #7e6cca;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    transition: all 700ms ease-in-out;
+}
+.main__btn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Spacebar text */
+.main__comand{
+    font-size: 10px;
+    margin-top: -20px;
+}
+
+/* click */
+.main__click{
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.main__click p{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.687);
+}

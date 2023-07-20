@@ -1,0 +1,140 @@
+*{
+    color: black;
+}
+.bodyReview{
+    width: 100%;
+    height: 100vh;
+}
+.layoutReview{
+    width: 100%;
+    height: 100vh;
+    background-color: #F3FBFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.layout__main{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.215);
+}
+.main__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.header__title{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.header__stars{
+    display: flex;
+    align-items: center;
+    background-color: #F3FBFB;
+    padding: 5px;
+    border-radius: 30px;
+    gap: 10px;
+}
+.stars__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.stars__text{
+    width: 100%;
+    padding-right: 5px;
+    font-size: 10px;
+    word-wrap: none;
+}
+.header__subtitle{
+    font-size: 8px;
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.687);
+}
+
+.main__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5px;
+}
+.main__star{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+.star__barContainer5{
+    width: 160px;
+    height: 20px;
+    background-color: #F3FBFB;
+    position: relative;
+    right: -3px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.star__barContainer{
+    width: 160px;
+    height: 20px;
+    background-color: #F3FBFB;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.star__bar{
+    height: 15px;
+    background-color: #fccc4d;
+    border-radius: 30px;
+}
+.star5__bar{
+    width: 90%;
+}
+.star4__bar{
+    width: 36%;
+}
+.star3__bar{
+    width: 24%;
+}
+.star2__bar{
+    width: 10%;
+}
+.star1__bar{
+    width: 5%;
+}
+
+.star__text{
+    color: rgba(0, 0, 0, 0.58);
+}
+.star5__text{
+    position: relative;
+    right: -5px;
+}
+
+.main__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__footer a{
+    font-size: 10px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
