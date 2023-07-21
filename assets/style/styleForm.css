@@ -1,6 +1,6 @@
 .layout{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(to top right, #9ac4a3, #3c739c);
     display: flex;
     justify-content: center;
@@ -8,6 +8,8 @@
     flex-direction: column;
 }
 .form__container{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
     background-color: #24303c;
     display: flex;
     gap: 2rem;
@@ -19,6 +21,7 @@
 }
 .form__title{
     font-weight: 700;
+    font-size: 25px;
 }
 .form__registro{
     display: flex;

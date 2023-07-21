@@ -6,11 +6,11 @@ header{
 }
 .bodyPalette{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 .layoutPalette{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #EBEBF3;
     display: flex;
     justify-content: center;
@@ -53,6 +53,17 @@ header{
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    flex-wrap: wrap;
+}
+@media (max-width: 543px){
+    .layout__main{
+        margin-top: 10rem;
+    }
+}
+@media (max-width: 320px){
+    .layout__main{
+        margin-top: 15rem;
+    }
 }
 .palette__container{
     width: 6rem;
@@ -134,3 +145,5 @@ header{
     font-size: 10px;
     color: rgba(0, 0, 0, 0.687);
 }
+
+

@@ -36,13 +36,13 @@
 .tecno{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: .3rem;
     border-radius: 5px;
     background-color: white;
     width: 27%;
-    height: 87%;
+    height: 100%;
     padding: 10px;
 }
 .img__angular{
